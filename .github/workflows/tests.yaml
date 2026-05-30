@@ -13,10 +13,6 @@ jobs:
         with:
           node-version: lts/hydrogen
 
-      - run: node -v
-
-      - run: npm -v
-
       - run: npm ci
 
       - run: npm test
